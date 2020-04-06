@@ -1,0 +1,92 @@
+/* вся таблица*/
+#container {
+margin: 0px; /*величину отступа от каждого края элемента*/
+text-align: left; /*выравнивание текста*/
+width: 100%;  /*ширина*/
+height: 300px; /*высота */
+}
+/* заглавие*/
+#header {
+color: #4169E1;
+text-align: center; /*выравнивание текста*/
+margin: 10px; /*отступ*/
+width: 100%; /* ширина*/
+height: 2px; /*высота*/
+}
+/*таблица вкладок*/
+#mainmenu {
+position: relative; /*позиционирования элемента относительно окна браузера*/
+overflow: visible; /*Отображается только область внутри элемента, остальное будет скрыто.*/
+height: 25px; /*высота*/
+margin: 10px; /*отступ*/
+}
+/*вкладки*/
+#mainmenu ul li {
+position: static; /*позиция*/
+margin: 15px; /*отступ*/
+height: 10px; /*высота*/
+}
+/*текст вкладок*/
+#mainmenu ul li a {
+color: #FFFFFF; /* цвет*/
+display: inline-block; /*как элемент должен быть показан в документе*/
+text-decoration: none; /*оформление текста*/
+padding: 0 10px; /*значение полей вокруг содержимого элемента*/
+line-height: 20px; /*межстрочный интервал текста*/
+}
+
+/*наведении мышкой на вкладку*/
+#mainmenu ul li a:hover {
+background-color: #0000FF; /* цвет фона элемента */
+}
+
+/*основание*/
+#content {
+color: #FFFFFF;
+margin: 80px; /*отступ*/
+padding: 0 60px; /*значение полей вокруг содержимого элемента*/
+text-align: center; /*выравнивание текста*/
+width: 85%; /*ширина*/
+font-family: Arial, sans-serif; /*семейство шрифта*/
+font-size: 20px; /*размер шрифта элемента*/
+}
+/* ссылка */
+#ssilka a:link{
+	color:  #C0C0C0; /* Цвет ссылки */
+}
+#ssilka a:visited{
+	color:  #C0C0C0; /* Цвет посещённой ссылки */
+}
+#ssilka a:active {
+	color:  #FF0000; /* Цвет при нажатии на ссылку */
+}
+
+/* "Подробнее "*/
+#ssilka2 a:link{
+	color:  #00FFFF; /* Цвет ссылки */
+}
+#ssilka2 a:visited{
+	color:  #C0C0C0; /* Цвет посещённой ссылки */
+}
+#ssilka2 a:active {
+	color:  #0000FF; /* Цвет при нажатии на ссылку */
+}
+
+/*табличка*/
+#table {
+width: 100%; /*ширина*/
+margin: 10px; /*величину отступа от каждого края элемента*/
+color: #FFFFFF;
+font-size: 16px; /*размер шрифта элемента*/
+height: 25px; /*высота*/
+position: relative; /*позиционирования элемента относительно окна браузера*/
+overflow: visible; /*Отображается только область внутри элемента, остальное будет скрыто.*/
+} 
+
+/*подвал*/ 
+#footer {
+text-align: center; /*выравнивание текста*/
+width: 100%; /*ширина*/
+color: #FFFFFF;
+font-size: 20px; /*размер шрифта элемента*/
+}
