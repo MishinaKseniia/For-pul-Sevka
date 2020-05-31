@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Задромир</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ </head>
+  <body background="images/вкл.jpg">
+    <div id="container">
+     <div id="header">
+      <h2>
+	 <img align="center" src="images/гейм.png" width="5%">
+	 Оставить сообщение 
+	 <img align="center" src="images/гейм.png" width="5%">
+	  </h2>	      
+	 </div>
+	 <!--Поиск-->
+<div id="submit">
+	<form action="" method="get">
+  <input name="s" placeholder="название игры..." type="search">
+  <button type="submit">Поиск</button>
+</form>
+</div>
+<div id="ssilka">
+<a href="menu.html">
+		 <button type="button" class="btn btn-primary btn-lg">
+             вернуться в главное меню</button></a>	  
+	 </div>
+<!--меню сайта-->
+<div id="mainmenu">
+       <div id="ssilka">
+        <ul>
+<!-- Описание ссылок в меню и сами ссылки. -->
+ <font color="red"><b>Выберите жанр:</b></font>
+         <li><a href="action.html">
+		 <button type="button" class="btn btn-link btn-lg">
+             Экшен</button></a></li>
+         <li><a href="strateg.html"><button type="button" class="btn btn-link btn-lg">
+             Стратегия</button> </a></li>
+		 <li><a href="разработка.html"><button type="button" class="btn btn-link btn-lg">
+             Приключения</button></a></li>
+		 <li><a href="разработка.html"><button type="button" class="btn btn-link btn-lg">
+             Стрелялки</button></a></li>
+		 <li><a href="разработка.html"><button type="button" class="btn btn-link btn-lg">
+             Гонки</button></a></li>
+		 </ul>
+       </div>
+</div>
+<!--Конец меню сайта-->
+<!-- Область Контента -->
+<div id="content">
+<form>
+<div class="form-group">
+<label>Имя</label>
+<input type="text" class="form-control"
+placeholder="Введите имя "name="name">
+</div>
+<div class="form-group">
+<label>EMAIL:</label>
+<input type="text" class="form-control"
+placeholder="Введите Email" name="email">
+</div>
+<div class="form-group">
+<label>Сообщение</label>
+<textarea name="comment" class="form-control" placeholder="Сообщение" name="text"></textarea>
+</div>
+<div class="form-group">
+<input type="submit" class="btn btn-info"
+value="Отправить" />
+</div>
+</form>
+</div>
+<!--конец области контента-->
+<!--Подвал сайта-->
+<div id="footer">
+<div id="ssilka">
+ Автор:<a href="https://vk.com/ksuchka_urik">Ксения Мишина</a>
+</div>
+</div>
+</div>
+</body>
+</html>
